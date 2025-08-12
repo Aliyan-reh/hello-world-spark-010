@@ -21,11 +21,11 @@ const About: React.FC = () => {
         <section className="mt-10 grid gap-6 md:grid-cols-2">
           <article>
             <h2 className="text-xl font-semibold">Our Story</h2>
-            <p className="mt-2 text-sm text-muted-foreground">Founded to bridge strategy and craft, we partner with ambitious brands to deliver measurable outcomes.</p>
+            <p className="mt-2 text-sm text-muted-foreground">Founded to bridge strategy and craft, we partner with ambitious brands to deliver measurable outcomes. We combine research, UX, and modern engineering to ship fast without sacrificing quality—and we stay focused on the KPIs that matter.</p>
           </article>
           <article>
             <h2 className="text-xl font-semibold">Mission & Vision</h2>
-            <p className="mt-2 text-sm text-muted-foreground">Design systems, thoughtful UX, and performance-first engineering for long-term growth.</p>
+            <p className="mt-2 text-sm text-muted-foreground">Design systems, thoughtful UX, and performance-first engineering for long-term growth. Our mission is to create accessible, scalable products that are as delightful as they are maintainable.</p>
           </article>
         </section>
 

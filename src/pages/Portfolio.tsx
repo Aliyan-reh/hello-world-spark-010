@@ -9,6 +9,12 @@ const projects = [
   { title: "Agency Redesign", desc: "Full brand and web overhaul.", img: "/images/project-agency.jpg" },
   { title: "Education Platform", desc: "Course library and onboarding.", img: "/images/project-education.jpg" },
   { title: "B2B Lead Gen", desc: "CMS-driven blog and resources.", img: "/images/project-b2b.jpg" },
+  { title: "Healthcare Portal", desc: "HIPAA-ready patient experience.", img: "/images/project-saas.jpg" },
+  { title: "Travel Booking", desc: "Search, filter, and smooth checkout.", img: "/images/project-ecommerce.jpg" },
+  { title: "Real Estate Showcase", desc: "Listings with advanced search.", img: "/images/project-agency.jpg" },
+  { title: "Nonprofit Campaign", desc: "Donation flows and impact pages.", img: "/images/project-education.jpg" },
+  { title: "Mobile App Microsite", desc: "Launch site with product tour.", img: "/images/project-fintech.jpg" },
+  { title: "Analytics Dashboard", desc: "Data visualizations and insights.", img: "/images/project-b2b.jpg" },
 ];
 
 const Portfolio: React.FC = () => {
