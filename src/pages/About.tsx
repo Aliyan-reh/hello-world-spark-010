@@ -2,10 +2,10 @@ import React from "react";
 import SEO from "@/components/SEO";
 
 const team = [
-  { name: "Riley Stone", role: "Creative Director", img: "/placeholder.svg" },
-  { name: "Jordan Fox", role: "Lead Developer", img: "/placeholder.svg" },
-  { name: "Casey Rivers", role: "UX Designer", img: "/placeholder.svg" },
-  { name: "Sam Patel", role: "SEO Strategist", img: "/placeholder.svg" },
+  { name: "Riley Stone", role: "Creative Director", img: "/images/team-riley.jpg" },
+  { name: "Jordan Fox", role: "Lead Developer", img: "/images/team-jordan.jpg" },
+  { name: "Casey Rivers", role: "UX Designer", img: "/images/team-casey.jpg" },
+  { name: "Sam Patel", role: "SEO Strategist", img: "/images/team-sam.jpg" },
 ];
 
 const About: React.FC = () => {

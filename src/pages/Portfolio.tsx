@@ -3,12 +3,12 @@ import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
-  { title: "SaaS Dashboard", desc: "Product marketing site and app UI.", img: "/placeholder.svg" },
-  { title: "E-commerce Brand", desc: "Shop with custom checkout.", img: "/placeholder.svg" },
-  { title: "Fintech Landing", desc: "High-converting launch page.", img: "/placeholder.svg" },
-  { title: "Agency Redesign", desc: "Full brand and web overhaul.", img: "/placeholder.svg" },
-  { title: "Education Platform", desc: "Course library and onboarding.", img: "/placeholder.svg" },
-  { title: "B2B Lead Gen", desc: "CMS-driven blog and resources.", img: "/placeholder.svg" },
+  { title: "SaaS Dashboard", desc: "Product marketing site and app UI.", img: "/images/project-saas.jpg" },
+  { title: "E-commerce Brand", desc: "Shop with custom checkout.", img: "/images/project-ecommerce.jpg" },
+  { title: "Fintech Landing", desc: "High-converting launch page.", img: "/images/project-fintech.jpg" },
+  { title: "Agency Redesign", desc: "Full brand and web overhaul.", img: "/images/project-agency.jpg" },
+  { title: "Education Platform", desc: "Course library and onboarding.", img: "/images/project-education.jpg" },
+  { title: "B2B Lead Gen", desc: "CMS-driven blog and resources.", img: "/images/project-b2b.jpg" },
 ];
 
 const Portfolio: React.FC = () => {
