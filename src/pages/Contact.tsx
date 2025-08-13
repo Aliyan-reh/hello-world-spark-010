@@ -4,10 +4,11 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/components/ui/use-toast";
-
+import Map from "@/components/Map";
 const Contact: React.FC = () => {
   const { toast } = useToast();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
+  const [mapToken, setMapToken] = useState("");
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,20 +47,37 @@ const Contact: React.FC = () => {
           </form>
 
           <div className="space-y-6">
+            <figure className="overflow-hidden rounded-md border">
+              <img
+                src="/images/contact-side.jpg"
+                alt="Creative studio workspace with contact details"
+                className="h-56 w-full object-cover"
+                loading="lazy"
+              />
+            </figure>
             <div>
               <h2 className="text-xl font-semibold">Contact Info</h2>
               <p className="mt-2 text-sm text-muted-foreground">Email: hello@example.com<br />Phone: (000) 000-0000<br />Social: @agency</p>
             </div>
             <div>
-              <h2 className="text-xl font-semibold">Location</h2>
-              <div className="mt-2 overflow-hidden rounded-md border">
-                <iframe
-                  title="Agency Location Map"
-                  src="https://www.google.com/maps?q=New%20York%2C%20NY&output=embed"
-                  className="h-64 w-full"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+              <h2 className="text-xl font-semibold">Interactive Map</h2>
+              <p className="mt-2 text-sm text-muted-foreground">Enter your Mapbox public token to load the map, then click anywhere to drop a pin for easy location sharing.</p>
+              <div className="mt-3 flex gap-2">
+                <Input
+                  value={mapToken}
+                  onChange={(e) => setMapToken(e.target.value)}
+                  placeholder="Mapbox public token"
+                  aria-label="Mapbox token"
                 />
+              </div>
+              <div className="mt-3 overflow-hidden rounded-md border">
+                {mapToken ? (
+                  <Map token={mapToken} />
+                ) : (
+                  <div className="p-4 text-sm text-muted-foreground">
+                    Add your Mapbox public token to load the interactive map. Tip: store it in Supabase Edge Function Secrets and proxy it if needed.
+                  </div>
+                )}
               </div>
             </div>
           </div>
