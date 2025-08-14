@@ -44,7 +44,7 @@ const About: React.FC = () => {
             </ul>
           </div>
           <figure className="overflow-hidden rounded-xl border">
-            <img src="/images/project-saas.jpg" alt="Design and engineering collaboration with components" className="h-64 w-full object-cover md:h-72" loading="lazy" />
+            <img src="/images/about-workflow.jpg" alt="Design and engineering collaboration with components" className="h-64 w-full object-cover md:h-72" loading="lazy" />
           </figure>
         </section>
 
