@@ -46,9 +46,20 @@ const Services: React.FC = () => {
     <>
       <SEO title="Services | Creative Web Design Agency" description="Website Design, UI/UX, Branding, SEO, and E-commerce Development." />
       <main className="container py-16">
-        <header className="max-w-2xl">
+        <header className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Services</h1>
-          <p className="mt-3 text-muted-foreground">We plan, design, and build digital experiences that help brands grow.</p>
+          <div className="mt-6 space-y-4 text-muted-foreground">
+            <p>
+              We plan, design, and build digital experiences that help brands grow through strategic and innovative solutions.
+              Our comprehensive approach combines creative expertise with technical excellence to deliver results that exceed expectations.
+              From initial concept to final launch, we guide every step of your digital transformation journey.
+            </p>
+            <p>
+              Each service we offer is carefully crafted to address specific business challenges and opportunities in today's digital landscape.
+              We believe in creating lasting partnerships with our clients, ensuring that our solutions not only meet immediate needs but also scale for future growth.
+              Our team brings years of experience across diverse industries to deliver tailored solutions that make a real impact.
+            </p>
+          </div>
         </header>
         <section className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s) => (
