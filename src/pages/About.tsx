@@ -13,9 +13,20 @@ const About: React.FC = () => {
     <>
       <SEO title="About Us | Creative Web Design Agency" description="Our story, team, and mission to craft exceptional digital experiences." />
       <main className="container py-16">
-        <header className="max-w-2xl">
+        <header className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">About Us</h1>
-          <p className="mt-3 text-muted-foreground">We’re a tight-knit team of designers and developers who love solving problems with great design.</p>
+          <div className="mt-6 space-y-4 text-muted-foreground">
+            <p>
+              We're a tight-knit team of designers and developers who love solving problems with great design.
+              Our passion lies in creating digital experiences that not only look stunning but also drive real business results.
+              Founded with the vision to bridge the gap between creativity and technology, we've been helping brands tell their stories online.
+            </p>
+            <p>
+              Every project we take on is an opportunity to push boundaries and explore new possibilities in web design.
+              We believe that great design is not just about aesthetics, but about creating meaningful connections between brands and their audiences.
+              Our collaborative approach ensures that every voice is heard and every detail is carefully crafted to perfection.
+            </p>
+          </div>
         </header>
 
         <figure className="mt-8 overflow-hidden rounded-xl border">
