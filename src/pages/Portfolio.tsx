@@ -22,9 +22,20 @@ const Portfolio: React.FC = () => {
     <>
       <SEO title="Portfolio | Creative Web Design Agency" description="A selection of our recent websites and digital experiences." />
       <main className="container py-16">
-        <header className="max-w-2xl">
+        <header className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Portfolio</h1>
-          <p className="mt-3 text-muted-foreground">Case studies and recent work demonstrating our approach and results.</p>
+          <div className="mt-6 space-y-4 text-muted-foreground">
+            <p>
+              Case studies and recent work demonstrating our approach and results across diverse industries and project types.
+              Each project showcases our commitment to delivering measurable outcomes through strategic design and thoughtful user experience.
+              From SaaS platforms to e-commerce sites, we craft digital solutions that drive engagement and convert visitors into customers.
+            </p>
+            <p>
+              Our portfolio reflects years of collaboration with ambitious brands who trust us to bring their vision to life.
+              We combine cutting-edge technology with timeless design principles to create websites that not only look stunning but perform exceptionally.
+              Every project tells a story of innovation, creativity, and the relentless pursuit of digital excellence.
+            </p>
+          </div>
         </header>
         <section className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
