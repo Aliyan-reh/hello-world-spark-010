@@ -3,18 +3,18 @@ import SEO from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 
 const projects = [
-  { title: "SaaS Dashboard", desc: "Product marketing site and app UI.", img: "/images/project-saas.jpg" },
-  { title: "E-commerce Brand", desc: "Shop with custom checkout.", img: "/images/project-ecommerce.jpg" },
-  { title: "Fintech Landing", desc: "High-converting launch page.", img: "/images/project-fintech.jpg" },
-  { title: "Agency Redesign", desc: "Full brand and web overhaul.", img: "/images/project-agency.jpg" },
-  { title: "Education Platform", desc: "Course library and onboarding.", img: "/images/project-education.jpg" },
-  { title: "B2B Lead Gen", desc: "CMS-driven blog and resources.", img: "/images/project-b2b.jpg" },
-  { title: "Healthcare Portal", desc: "HIPAA-ready patient experience.", img: "/images/project-saas.jpg" },
-  { title: "Travel Booking", desc: "Search, filter, and smooth checkout.", img: "/images/project-ecommerce.jpg" },
-  { title: "Real Estate Showcase", desc: "Listings with advanced search.", img: "/images/project-agency.jpg" },
-  { title: "Nonprofit Campaign", desc: "Donation flows and impact pages.", img: "/images/project-education.jpg" },
-  { title: "Mobile App Microsite", desc: "Launch site with product tour.", img: "/images/project-fintech.jpg" },
-  { title: "Analytics Dashboard", desc: "Data visualizations and insights.", img: "/images/project-b2b.jpg" },
+  { title: "SaaS Dashboard", desc: "Product marketing site and app UI.", img: "/images/portfolio-saas.jpg" },
+  { title: "E-commerce Brand", desc: "Shop with custom checkout.", img: "/images/portfolio-ecommerce.jpg" },
+  { title: "Fintech Landing", desc: "High-converting launch page.", img: "/images/portfolio-fintech.jpg" },
+  { title: "Agency Redesign", desc: "Full brand and web overhaul.", img: "/images/portfolio-agency.jpg" },
+  { title: "Education Platform", desc: "Course library and onboarding.", img: "/images/portfolio-education.jpg" },
+  { title: "B2B Lead Gen", desc: "CMS-driven blog and resources.", img: "/images/portfolio-b2b.jpg" },
+  { title: "Healthcare Portal", desc: "HIPAA-ready patient experience.", img: "/images/portfolio-healthcare.jpg" },
+  { title: "Travel Booking", desc: "Search, filter, and smooth checkout.", img: "/images/portfolio-travel.jpg" },
+  { title: "Real Estate Showcase", desc: "Listings with advanced search.", img: "/images/portfolio-realestate.jpg" },
+  { title: "Nonprofit Campaign", desc: "Donation flows and impact pages.", img: "/images/portfolio-nonprofit.jpg" },
+  { title: "Mobile App Microsite", desc: "Launch site with product tour.", img: "/images/portfolio-mobile.jpg" },
+  { title: "Analytics Dashboard", desc: "Data visualizations and insights.", img: "/images/portfolio-analytics.jpg" },
 ];
 
 const Portfolio: React.FC = () => {
