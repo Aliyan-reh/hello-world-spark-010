@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
       toast({ title: "Missing details", description: "Please complete all fields with a valid email." });
       return;
     }
-    toast({ title: "Message sent", description: "We’ll get back to you within 1 business day." });
+    toast({ title: "Message sent", description: "We'll get back to you within 1 business day." });
     setForm({ name: "", email: "", message: "" });
   };
 
@@ -24,9 +24,11 @@ const Contact: React.FC = () => {
     <>
       <SEO title="Contact | Creative Web Design Agency" description="Get in touch for quotes, collaborations, or general inquiries." />
       <main className="container py-16">
-        <header className="max-w-2xl">
+        <header className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Contact</h1>
-          <p className="mt-3 text-muted-foreground">Let’s talk about your project. We’ll reply quickly.</p>
+          <p className="mt-6 text-muted-foreground">
+            Let's talk about your project and bring your vision to life. We're here to answer your questions, provide detailed quotes, and discuss how we can help you achieve your digital goals. Our team responds quickly and we're committed to starting meaningful conversations that lead to exceptional results.
+          </p>
         </header>
 
         <section className="mt-10 grid gap-10 lg:grid-cols-2">
