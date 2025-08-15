@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
         <div className="container relative">
           <header className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight md:text-6xl bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-              Let's Create Something Amazing
+              Contact
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Let's talk about your project and bring your vision to life. We're here to answer your questions, provide detailed quotes, and discuss how we can help you achieve your digital goals. Our team responds quickly and we're committed to starting meaningful conversations that lead to exceptional results.
